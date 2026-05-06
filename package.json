@@ -1,0 +1,39 @@
+{
+  "name": "selah",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "^7.9.0",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@solana-mobile/mobile-wallet-adapter-protocol": "2.1.2",
+    "@solana-mobile/mobile-wallet-adapter-protocol-web3js": "2.1.2",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.95.4",
+    "base-64": "^1.0.0",
+    "bs58": "^5.0.0",
+    "expo": "~51.0.28",
+    "expo-camera": "~15.0.16",
+    "expo-crypto": "~13.0.2",
+    "expo-haptics": "~13.0.1",
+    "expo-notifications": "~0.28.19",
+    "expo-splash-screen": "~0.27.5",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-get-random-values": "~1.11.0",
+    "text-encoding": "^0.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@types/react": "~18.2.79",
+    "@types/react-native": "~0.73.0",
+    "typescript": "~5.3.3"
+  },
+  "private": true
+}
