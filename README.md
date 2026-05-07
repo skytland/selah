@@ -52,10 +52,6 @@ As a solo developer, I'm presenting Selah via a 3-minute video submission in lie
 
 [![▶ Watch 3-Minute Presentation](https://img.shields.io/badge/▶_Watch_Presentation-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/19SjA92NyrlVY7N4loVDx45ZYZGua-feX/view?usp=sharing)
 
-<a href="https://drive.google.com/file/d/19SjA92NyrlVY7N4loVDx45ZYZGua-feX/view?usp=sharing">
-  <img src="https://drive.google.com/thumbnail?id=19SjA92NyrlVY7N4loVDx45ZYZGua-feX&sz=w800" alt="▶ Watch Selah Hackathon Presentation" width="640" />
-</a>
-
 ---
 
 ## Announcement
