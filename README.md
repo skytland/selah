@@ -14,13 +14,17 @@
 
 ## What It Does
 
-Selah is the simplest on-chain daily devotional on Solana. Open the app, read today's Bible verse (YouVersion API), receive a 2-sentence evangelical reflection (Gloo AI Completions V2), give a small amount of SOL to a recipient wallet of your choice, and receive 1 SELAH token — a soul-bound, non-transferable SPL Token-2022 that is your permanent on-chain record of showing up. Give SOL. Receive SELAH. Every day.
+Selah is the simplest on-chain daily devotional on Solana. Open the app, read today's Bible verse (YouVersion API), receive a 2-sentence reflection (Gloo API), give a small amount of SOL to a recipient wallet of your choice, and receive 1 SELAH token — a soul-bound, non-transferable SPL Token-2022 that is your permanent on-chain record of showing up. Give SOL. Receive SELAH. Every day.
 
 ---
 
 ## Demo
 
-> *[Record a 60-second Loom on Seeker and paste the link here]*
+<a href="https://drive.google.com/file/d/1yLsK3jLz1-1TsQR-zuaJZvgjOiA_5BcG/view?usp=sharing">
+  <img src="https://drive.google.com/thumbnail?id=1yLsK3jLz1-1TsQR-zuaJZvgjOiA_5BcG&sz=w800" alt="▶ Watch Selah Demo" width="640" />
+</a>
+
+> *Click the thumbnail above to watch the demo — recorded on a Solana Seeker device*
 
 ---
 
