@@ -14,7 +14,25 @@
 
 ## What It Does
 
-Selah is the first on-chain daily devotional and giving app on Solana. Open the app, read today's Bible verse (YouVersion API), receive a 2-sentence reflection (Gloo AI), give a small amount of SOL to your church or charity, and earn 1 SELAH token. SELAH is a soul-bound SPL Token-2022 — non-transferable, yours forever, earned only by showing up.
+Selah is the first daily on-chain devo and generosity app built natively for the Solana dApp Store 2.0 and the Seeker device. Each day, the app surfaces a new Bible verse from the YouVersion Bible API and generates a 2-sentence reflection using Gloo AI's tradition-aware Completions V2 API. The user then can choose to donate a small amount of SOL to a church, charity or person of their choice using the Solana Mobile Wallet Adapter. After completing their devo, they are awarded 1 SELAH token minted to their wallet.
+
+SELAH is a soul-bound SPL Token-2022. It cannot be bought, sold, or transferred. The only way to earn it is to show up each day. Your SELAH balance is a permanent, on-chain record of your faithfulness and generosity — visible in your wallet alongside your SOL.
+
+The app solves a real problem: millions of Christians want to live generously but have no simple, spiritually grounded way to connect their crypto holdings to their faith and donate crypto easily through a trusted app. Selah closes that loop in one screen and under 30 seconds. It is the simplest possible app that is also genuinely novel — no other app on the Solana dApp Store exists like this that combines Scripture, AI, giving, and a daily streak token.
+
+---
+
+## How It Was Built
+
+Selah is built with React Native (Expo SDK 51, bare workflow) and TypeScript.
+
+**Solana:** `@solana-mobile/mobile-wallet-adapter-protocol-web3js` handles all wallet authorization and transaction signing — no private keys are stored in the app. Giving transactions use `@solana/web3.js` `SystemProgram.transfer`. On confirmation, the app mints 1 SELAH token using `@solana/spl-token` `createMintToInstruction` against a pre-deployed SPL Token-2022 mint. The soul-bound behavior is enforced via a TransferHook extension on the Token-2022 program.
+
+**YouVersion Bible API:** Daily verse passages are fetched using the YouVersion REST API with a 365-day USFM schedule bundled in the app, cached in AsyncStorage with a 24-hour TTL.
+
+**Gloo AI Completions V2:** We call the tradition-aware completions endpoint at `platform.ai.gloo.com/ai/v2/completions` with `auto_routing: true` and `tradition: 'evangelical'`. This is the only AI API in the world that supports theological tradition as a first-class parameter — it is what makes the reflection genuinely values-aligned rather than generic. Streaming is enabled for real-time UX. Authentication uses Gloo's OAuth2 client credentials flow.
+
+**Seeker hardware:** The Seeker's native double-tap + fingerprint hardware gesture confirms transactions without leaving the app, making this a hardware-native experience unique to the Solana Mobile ecosystem.
 
 ---
 
