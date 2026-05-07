@@ -24,7 +24,7 @@ Selah is the first on-chain daily devotional and giving app on Solana. Open the 
   <img src="https://drive.google.com/thumbnail?id=1yLsK3jLz1-1TsQR-zuaJZvgjOiA_5BcG&sz=w800" alt="▶ Watch Selah Demo" width="640" />
 </a>
 
-> *Click the thumbnail above to watch the demo or view the slides at [bit.ly/selahapp](https://bit.ly/selahapp)*
+> *Click the thumbnail above to watch the demo or [view the slides](https://www.canva.com/design/DAHI-DBlJLE/6DMSqBBDO-mQ63aEk4LGFQ/view)*
 
 ---
 
