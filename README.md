@@ -24,7 +24,17 @@ Selah is the first on-chain daily devotional and giving app on Solana. Open the 
   <img src="https://drive.google.com/thumbnail?id=1yLsK3jLz1-1TsQR-zuaJZvgjOiA_5BcG&sz=w800" alt="▶ Watch Selah Demo" width="640" />
 </a>
 
-> *Click the thumbnail above to watch the demo — recorded on a Solana Seeker device*
+> *Click the thumbnail above to watch the demo or view the slides at [bit.ly/selahapp](https://bit.ly/selahapp)*
+
+---
+
+## Announcement
+
+[![Tweet](https://img.shields.io/badge/View_on_X-%231DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/skytland/status/2052422530758262934)
+
+> "Dusted off my coding skills at #EasyAConsensusHackathon this week and built Selah — an on-chain, AI-powered daily devotional. To use it is simple. Pause. Reflect. Give SOL. Receive a soul-bound SELAH token. Let me know what you think!"
+>
+> — [@skytland](https://x.com/skytland/status/2052422530758262934)
 
 ---
 
